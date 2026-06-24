@@ -1,0 +1,396 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>経堂小PTA お仕事ずかん（委員・係紹介）</title>
+<style>
+:root{--ink:#1f2937;--muted:#6b7280;--line:#e7e9ee;--bg:#f5f6f8;
+ --honbu:#b4232a;--joc:#2f8f4e;--gaib:#2563eb;--gyoji:#dd8a1f;--senmon:#7c3aed}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.hero{background:linear-gradient(135deg,#2f8f4e,#1f6e3a);color:#fff;padding:54px 0 46px}
+.tag{display:inline-block;background:rgba(255,255,255,.18);font-weight:700;font-size:13px;padding:.3em 1em;border-radius:999px;margin-bottom:14px}
+.hero h1{font-size:clamp(28px,4.6vw,46px);font-weight:800;line-height:1.25;letter-spacing:.01em}
+.hero p{margin-top:14px;font-size:clamp(15px,1.7vw,19px);max-width:42em;opacity:.96}
+.hero .draftnote{margin-top:20px;font-size:13px;opacity:.88;border-left:3px solid rgba(255,255,255,.5);padding-left:12px;max-width:46em}
+.finder{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--line);padding:16px 0;box-shadow:0 2px 10px rgba(0,0,0,.03)}
+.finder h2{font-size:14px;color:var(--muted);font-weight:700;margin-bottom:10px}
+.chips{display:flex;flex-wrap:wrap;gap:9px}
+.chip{cursor:pointer;border:1.5px solid var(--line);background:#fff;color:#374151;font-weight:700;font-size:14px;padding:.5em 1.1em;border-radius:999px;transition:.15s;user-select:none}
+.chip:hover{border-color:#2f8f4e;color:#2f8f4e}
+.chip.on{background:#2f8f4e;border-color:#2f8f4e;color:#fff}
+.catsec{padding:32px 0 6px}
+.shead{display:flex;align-items:center;gap:11px;margin-bottom:4px}
+.dotc{width:14px;height:14px;border-radius:4px;display:inline-block}
+.shead h2{font-size:clamp(20px,2.6vw,28px);font-weight:800}
+.shead .cnt{font-size:13px;font-weight:700;color:var(--muted);background:#eef1f4;padding:.2em .8em;border-radius:999px}
+.slead{color:var(--muted);margin-bottom:18px;font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;overflow:hidden;box-shadow:0 6px 22px rgba(20,30,50,.05);display:flex;flex-direction:column}
+.card.hide{display:none}
+.cap{display:flex;align-items:center;gap:14px;padding:16px 18px;color:#fff}
+.cap.honbu{background:var(--honbu)}.cap.joc{background:var(--joc)}.cap.gaib{background:var(--gaib)}.cap.gyoji{background:var(--gyoji)}.cap.senmon{background:var(--senmon)}
+.avatar{flex:0 0 auto;width:64px;height:64px;border-radius:14px;background:rgba(255,255,255,.22);display:grid;place-items:center;font-size:36px;line-height:1}
+.cap .ttl{font-size:21px;font-weight:800;line-height:1.2}
+.cap .cat{font-size:12px;font-weight:700;opacity:.92;margin-top:2px}
+.body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:12px;flex:1}
+.oneline{font-size:16px;font-weight:700;color:#111}
+.fit{background:#f4f8f5;border:1px solid #d8ebdf;border-radius:10px;padding:10px 12px;font-size:13.5px}
+.fit b{color:#2f8f4e}
+.work{font-size:13px;font-weight:800;color:var(--muted);letter-spacing:.04em;margin-bottom:-4px}
+.work-list{list-style:none;display:flex;flex-direction:column;gap:6px}
+.work-list li{position:relative;padding-left:1.3em;font-size:14px}
+.work-list li:before{content:"";position:absolute;left:2px;top:.6em;width:7px;height:7px;border-radius:50%;background:#2f8f4e;opacity:.7}
+.meta{margin-top:auto;border-top:1px dashed var(--line);padding-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:8px 14px}
+.meta div{font-size:13px;color:#374151}
+.meta .k{color:var(--muted);font-size:11px;display:block;font-weight:700;letter-spacing:.03em}
+.badges{display:flex;flex-wrap:wrap;gap:6px}
+.b{font-size:11.5px;font-weight:700;padding:.2em .7em;border-radius:6px;background:#eef2f5;color:#475569}
+.b.home{background:#e7f0ff;color:#2563eb}.b.day{background:#fff0e0;color:#c47012}.b.skill{background:#f0e9ff;color:#7c3aed}.b.easy{background:#e8f7ec;color:#1f8a44}.b.active{background:#ffeaea;color:#c0392b}
+footer{padding:36px 0 60px}
+.box{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 24px}
+.box h3{font-size:17px;font-weight:800;margin-bottom:8px}
+.box p{font-size:14px;color:#374151}
+.legend{display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;font-size:12.5px;color:var(--muted)}
+#nohit{display:none;padding:30px 0;color:var(--muted);font-size:15px}
+@media(max-width:760px){.cards{grid-template-columns:1fr}.hero{padding:40px 0 32px}.finder{padding:12px 0}}
+</style></head><body>
+
+<div class="hero"><div class="wrap">
+ <span class="tag">経堂小PTA ・ 委員・係紹介（お仕事ずかん）</span>
+ <h1>あなたの「強み」や「暮らし」に<br>合う係が、きっと見つかる。</h1>
+ <p>経堂小PTAには全24の役割があります。それぞれを「<b>こんな人に向いている</b>」「<b>何をする</b>」「<b>いつ・どれくらい関わる</b>」まで噛み砕いて紹介します。気になる切り口で絞り込んでみてください。</p>
+ <div class="draftnote">ドラフト版です。各カードの🦁等は、適性をイメージしたキャラクター画像（アイソメトリック）に差し替える想定です。内容は2025年度（R7）の活動内容一覧にもとづきます。</div>
+</div></div>
+
+<div class="finder"><div class="wrap">
+ <h2>こんな切り口で探せます</h2>
+ <div class="chips" id="chips">
+  <span class="chip on" data-f="all">すべて</span>
+  <span class="chip" data-f="home">💻 在宅でできる</span>
+  <span class="chip" data-f="day">📅 当日だけ・短期</span>
+  <span class="chip" data-f="skill">⌨️ スキルが活きる</span>
+  <span class="chip" data-f="active">🏃 体を動かす</span>
+  <span class="chip" data-f="easy">🔰 はじめて向き</span>
+ </div>
+</div></div>
+
+<div class="wrap">
+<section class="catsec" data-cat="honbu">
+  <div class="shead"><span class="dotc" style="background:#b4232a"></span><h2>本部役員</h2><span class="cnt">5係</span></div>
+  <p class="slead">PTA全体の運営を担う中心メンバー。</p>
+  <div class="cards">
+<article class="card" data-tags="">
+  <div class="cap honbu"><div class="avatar">🦁</div><div><div class="ttl">会長</div><div class="cat">本部役員</div></div></div>
+  <div class="body">
+   <div class="oneline">PTAの代表。会を束ね、学校・地域との“顔”になる役割。</div>
+   <div class="fit"><b>こんな人に</b>：人前で話す・意見をまとめるのが苦でない人。前年に委員や係を経験していると動きやすい（必須ではありません）。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>総会・運営委員会（年3回）の主宰</li><li>本部役員会（月1程度・参加任意）</li><li>学校運営委員会（年6回）に出席</li><li>5ブロック会など対外の窓口対応</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>1名 ・ 10pt</div><div><span class="k">活動時期・繁忙</span>12月〜年度末（繁忙=1学期）</div><div><span class="k">関わり方</span>運営委員会ほか平日中心</div><div><span class="k">兼務 / 選出</span>不可 ・ 前年9月〜</div></div>
+   <div class="badges"><span class="b">リーダー</span><span class="b">対外調整</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="">
+  <div class="cap honbu"><div class="avatar">🐘</div><div><div class="ttl">副会長</div><div class="cat">本部役員</div></div></div>
+  <div class="body">
+   <div class="oneline">会長を補佐し、担当の委員・係の窓口・相談役になる“支え役”。</div>
+   <div class="fit"><b>こんな人に</b>：調整・段取りが得意な人。委員・係の経験があると業務イメージが掴みやすい（必須ではありません）。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>運営委員会の準備・司会進行・ZOOM配信</li><li>総会の企画・準備・集計</li><li>担当する委員・係の窓口・相談</li><li>ミマモルメ配信の設定（PC係と連携）</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>4名 ・ 10pt</div><div><span class="k">活動時期・繁忙</span>4月〜1年（繁忙=4月）</div><div><span class="k">関わり方</span>運営委員会（平日年3回）ほか適時</div><div><span class="k">兼務 / 選出</span>不可 ・ 前年10月〜</div></div>
+   <div class="badges"><span class="b">調整・段取り</span><span class="b">委員サポート</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="home skill">
+  <div class="cap honbu"><div class="avatar">🦫</div><div><div class="ttl">書記</div><div class="cat">本部役員</div></div></div>
+  <div class="body">
+   <div class="oneline">会議の記録と、全会員向け文書の作成。資料づくりの担い手。</div>
+   <div class="fit"><b>こんな人に</b>：Word・Excelが使える方。自宅PCで作業できる方（貸出用PC1台あり）。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>委員・係名簿や総会資料の作成</li><li>運営委員会のお知らせ・活動報告書</li><li>PTAだより（年3回）の発行</li><li>新入生・転入生向け書類の準備</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>3名 ・ 10pt</div><div><span class="k">活動時期・繁忙</span>3月〜1年（繁忙=総会前・年度末）</div><div><span class="k">関わり方</span>資料準備で来校／在宅作業が中心</div><div><span class="k">兼務 / 選出</span>不可 ・ 前年10月〜</div></div>
+   <div class="badges"><span class="b skill">Word/Excel</span><span class="b home">在宅作業</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="home skill">
+  <div class="cap honbu"><div class="avatar">🦉</div><div><div class="ttl">会計</div><div class="cat">本部役員</div></div></div>
+  <div class="body">
+   <div class="oneline">会費の管理と決算報告。お金まわりの“要”。</div>
+   <div class="fit"><b>こんな人に</b>：Excelが使える／自宅PCで作業できる方。銀行窓口の対応があるため、平日に動ける方。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>会費の集金・管理、帳簿・領収書の整理</li><li>予算案・決算の作成と報告</li><li>各種保険・助成金の手続き</li><li>委員・係への活動費の支給</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>2名 ・ 10pt</div><div><span class="k">活動時期・繁忙</span>約1年4か月（2月〜翌5月）</div><div><span class="k">関わり方</span>4月は週1、ほか月1＋銀行</div><div><span class="k">兼務 / 選出</span>不可 ・ 前年10月〜</div></div>
+   <div class="badges"><span class="b skill">Excel</span><span class="b home">一部在宅</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="easy">
+  <div class="cap honbu"><div class="avatar">🐢</div><div><div class="ttl">監査役</div><div class="cat">本部役員</div></div></div>
+  <div class="body">
+   <div class="oneline">会計・会務をチェックし、結果を会員に報告する“見守り役”。</div>
+   <div class="fit"><b>こんな人に</b>：PTA会計・監査の経験者が優先。年2回の監査が中心で、運営委員会の参加は任意。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>中間監査・期末監査（年2回ほか必要に応じて）</li><li>監査結果を総会または文書で報告</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>2名 ・ 1pt</div><div><span class="k">活動時期・繁忙</span>年2回のみ（中間・期末）</div><div><span class="k">関わり方</span>活動時期のみ（運営委員会は任意）</div><div><span class="k">兼務 / 選出</span>不可 ・ 3月</div></div>
+   <div class="badges"><span class="b">年2回</span><span class="b easy">はじめて向き</span></div>
+  </div>
+ </article>
+</div>
+ </section><section class="catsec" data-cat="joc">
+  <div class="shead"><span class="dotc" style="background:#2f8f4e"></span><h2>常置委員会</h2><span class="cnt">5係</span></div>
+  <p class="slead">通年で活動する委員会。</p>
+  <div class="cards">
+<article class="card" data-tags="">
+  <div class="cap joc"><div class="avatar">🐧</div><div><div class="ttl">学級代表委員</div><div class="cat">常置委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">各クラスの代表として、保護者の声をPTAに届ける“つなぎ役”。PTA組織の根幹です。</div>
+   <div class="fit"><b>こんな人に</b>：クラスのまとめ役。長はWord/Excelが使えると望ましい。わかば学級も原則選出。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>学級の意見・要望の取りまとめと提案</li><li>学級代表委員会(年3回ZOOM)・運営委員会(年3回)に出席</li><li>保護者会で代表として自己紹介</li><li>4月の委員・係の決定通知・受理確認</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>各クラス 長1・副1 ・ 2pt〜</div><div><span class="k">活動時期・繁忙</span>3月〜1年</div><div><span class="k">関わり方</span>保護者会・運営委員会で来校（ZOOM可）</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b">クラス代表</span><span class="b">1学級1票</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="">
+  <div class="cap joc"><div class="avatar">🐨</div><div><div class="ttl">文化厚生委員</div><div class="cat">常置委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">家庭教育学級（給食試食会・講演会）を企画・運営。学びと交流の場づくり。</div>
+   <div class="fit"><b>こんな人に</b>：担当イベント当日（平日日中・半日）に参加できる方。給食試食会班／講演会班に分かれて活動。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>給食試食会の企画・運営（栄養士と打合せ・設営・集計）</li><li>講演会の企画・運営（講師手配・設営・集計）</li><li>報告書の作成</li><li>各同好会の窓口（主に副）</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>計20名 ・ 2〜7pt</div><div><span class="k">活動時期・繁忙</span>引継ぎ〜1年（繁忙=担当イベント前）</div><div><span class="k">関わり方</span>ミーティングZOOM可・イベント当日は来校</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b">企画・運営</span><span class="b">平日イベント</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="home skill">
+  <div class="cap joc"><div class="avatar">🦊</div><div><div class="ttl">広報委員</div><div class="cat">常置委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">PTA広報誌『きょうどう』の取材・編集・発行（年1回）。</div>
+   <div class="fit"><b>こんな人に</b>：編集担当はCanva／Illustrator／PowerPoint等が使えると◎（撮影・校正だけの参加もOK）。在宅で編集できる方。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>運動会・教職員などの取材・撮影</li><li>誌面の企画・編集・校正</li><li>配布前のクラスごとの仕分け</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>計5名 ・ 3〜7pt</div><div><span class="k">活動時期・繁忙</span>7〜8月から約1年（通年で撮影）</div><div><span class="k">関わり方</span>撮影イベント時に来校／在宅編集</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b skill">編集・デザイン</span><span class="b home">在宅編集</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="skill">
+  <div class="cap joc"><div class="avatar">🐝</div><div><div class="ttl">役員選考委員</div><div class="cat">常置委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">次年度の本部役員や、委員・係の選出を段取りする“縁の下”。</div>
+   <div class="fit"><b>こんな人に</b>：段取り・PC操作が活きる役割（長・副は自宅PCがあると望ましい）。Googleフォーム／スプレッドシートを使用。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>次年度本部役員の選考方法の調整・実施</li><li>委員・係の立候補受付・選出</li><li>辞退申請の受付・確認</li><li>ミマモルメ配信の準備</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>計5名 ・ 3〜5pt</div><div><span class="k">活動時期・繁忙</span>引継ぎ〜1年</div><div><span class="k">関わり方</span>互選会・選考会・運営委員会（平日午前が多い・ZOOM可）</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b">段取り</span><span class="b skill">PC作業</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="home skill">
+  <div class="cap joc"><div class="avatar">🐹</div><div><div class="ttl">（役選）ポイント係</div><div class="cat">常置委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">会員名簿とポイント履歴の管理。Excelでこつこつ進める、在宅中心の係。</div>
+   <div class="fit"><b>こんな人に</b>：Excel（並べ替え・フィルター）が使える方／自宅PCで作業できる方。来校は引継ぎ会のみ。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>家庭ID・児童IDでの名簿・ポイント管理</li><li>転出入や情報更新・ポイント付与</li><li>新年度名簿への更新</li><li>本部・役選からの照会対応</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>3名 ・ 3pt</div><div><span class="k">活動時期・繁忙</span>5月中頃〜翌4月（繁忙=6月/9-10月/3-4月）</div><div><span class="k">関わり方</span>引継ぎ会のみ来校・基本は在宅</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 4月</div></div>
+   <div class="badges"><span class="b skill">Excel</span><span class="b home">ほぼ在宅</span></div>
+  </div>
+ </article>
+</div>
+ </section><section class="catsec" data-cat="gaib">
+  <div class="shead"><span class="dotc" style="background:#2563eb"></span><h2>校外委員会</h2><span class="cnt">7係</span></div>
+  <p class="slead">地域・町会・警察と連携し、子どもの校外の安全を守る。</p>
+  <div class="cards">
+<article class="card" data-tags="">
+  <div class="cap gaib"><div class="avatar">🐕</div><div><div class="ttl">校外役員</div><div class="cat">校外委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">町会・警察と連携し、子どもの校外の安全を守る校外委員会のまとめ役。</div>
+   <div class="fit"><b>こんな人に</b>：校外委員会の運営を担う役割。居住地区の制限はありません。係との兼務も可。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>校外委員会（年4回ZOOM）の開催・進行</li><li>各担当委員の選出</li><li>「校外だより」の作成・ミマモルメ配信</li><li>校外活動の把握と取りまとめ</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>4〜5名 ・ 8pt</div><div><span class="k">活動時期・繁忙</span>1月末〜翌3月末（年度をまたいで引継ぎ）</div><div><span class="k">関わり方</span>引継ぎ時ほか適時</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 前年10〜11月〜</div></div>
+   <div class="badges"><span class="b">安全・地域</span><span class="b">まとめ役</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="active">
+  <div class="cap gaib"><div class="avatar">🦝</div><div><div class="ttl">青少年経堂地区担当</div><div class="cat">校外委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">青少年経堂地区委員会と連携し、週末行事で子どもを引率・運営補助。</div>
+   <div class="fit"><b>こんな人に</b>：地区行事（飯ごう炊さん会・ドッジボール大会等）の運営に関われる方。児童・未就学児の同伴は原則不可。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>地区委員会（年6回程度）に出席</li><li>主催行事の参加取りまとめ・準備・引率</li><li>青少年経堂地区イベント係の管理</li><li>校外委員会に参加</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>2名 ・ 6pt</div><div><span class="k">活動時期・繁忙</span>1月末〜翌3月末</div><div><span class="k">関わり方</span>地区委員会・行事の週末参加</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 前年10〜11月〜</div></div>
+   <div class="badges"><span class="b">地域行事</span><span class="b active">週末活動</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="active">
+  <div class="cap gaib"><div class="avatar">🦡</div><div><div class="ttl">青少年松沢地区担当</div><div class="cat">校外委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">青少年松沢地区委員会と連携し、地域行事の準備・運営を担う。</div>
+   <div class="fit"><b>こんな人に</b>：地区委員会（ほぼ毎月）に出席できる方。子どものつどい・凧あげ大会などの運営。同伴は原則不可。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>地区委員会（年11回）に出席</li><li>主催行事の準備・引率・運営</li><li>関連行事（近隣校）への協力</li><li>校外委員会に参加</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>2名 ・ 6pt</div><div><span class="k">活動時期・繁忙</span>1月末〜翌3月末</div><div><span class="k">関わり方</span>毎月の地区委員会・行事参加</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 前年10〜11月〜</div></div>
+   <div class="badges"><span class="b">地域行事</span><span class="b">月例参加</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="">
+  <div class="cap gaib"><div class="avatar">🐥</div><div><div class="ttl">成城交通安全保護者の会</div><div class="cat">校外委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">交通安全の啓発活動。ポスター募集や自転車教室の補助など。</div>
+   <div class="fit"><b>こんな人に</b>：交通安全の会（年6回程度）に参加できる方。同伴は原則不可。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>会への出席・関連行事への参加</li><li>交通安全ポスターの募集・取りまとめ・掲出</li><li>警察への要望の取りまとめ</li><li>3年自転車教室の運営補助</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>2名 ・ 3pt</div><div><span class="k">活動時期・繁忙</span>1月末〜翌3月末</div><div><span class="k">関わり方</span>会・行事に参加（年6回程度）</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 前年10〜11月〜</div></div>
+   <div class="badges"><span class="b">交通安全</span><span class="b">地域連携</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="">
+  <div class="cap gaib"><div class="avatar">🐺</div><div><div class="ttl">警察担当</div><div class="cat">校外委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">防犯グッズ・パトロール備品の管理。安全の“裏方”。</div>
+   <div class="fit"><b>こんな人に</b>：校外地区班から選出。校外委員会（年4回ZOOM）に参加できる方。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>パトロール備品・報告書の取りまとめ・管理</li><li>「こども110番」掲示リストの管理</li><li>自転車プレート・防犯ポスター等の管理</li><li>校外委員会に参加</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>2名 ・ 4pt</div><div><span class="k">活動時期・繁忙</span>1月末〜翌3月末</div><div><span class="k">関わり方</span>引継ぎ時ほか適時（ZOOM可）</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 前年12月〜</div></div>
+   <div class="badges"><span class="b">防犯</span><span class="b">備品管理</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="">
+  <div class="cap gaib"><div class="avatar">🦅</div><div><div class="ttl">ブロック長</div><div class="cat">校外委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">地区班の活動を束ね、町会との連絡窓口になるブロックのまとめ役。</div>
+   <div class="fit"><b>こんな人に</b>：校外地区班から選出。町会との連携・連絡を担える方。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>ブロック内全班の活動把握・取りまとめ</li><li>町会との連携・連絡窓口</li><li>地域行事の取りまとめ</li><li>校外委員会（年4回ZOOM）に参加</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>各ブロック1名 ・ 4pt</div><div><span class="k">活動時期・繁忙</span>1月末〜翌3月末</div><div><span class="k">関わり方</span>校外委員会ほか適時</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 前年12月〜</div></div>
+   <div class="badges"><span class="b">まとめ役</span><span class="b">町会窓口</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="active easy">
+  <div class="cap gaib"><div class="avatar">🐶</div><div><div class="ttl">校外委員</div><div class="cat">校外委員会</div></div></div>
+  <div class="body">
+   <div class="oneline">旗持ちパトロールの当番表づくりなど、身近な見守り活動。負担は軽めです。</div>
+   <div class="fit"><b>こんな人に</b>：校外地区班から各班2名。来校は引継ぎ1回程度で、地域での見守りが中心。はじめての方にも。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>校外委員会（年4回ZOOM）に参加</li><li>防犯・交通安全パトロール（旗持ち）の当番表作成・配布</li><li>防犯グッズの募集・確認</li><li>町会行事のお手伝い</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>各班2名 ・ 3pt</div><div><span class="k">活動時期・繁忙</span>1月末〜翌3月末</div><div><span class="k">関わり方</span>来校は引継ぎ1回程度</div><div><span class="k">兼務 / 選出</span>係と兼務可 ・ 前年12月〜</div></div>
+   <div class="badges"><span class="b active">旗持ち</span><span class="b easy">はじめて向き</span></div>
+  </div>
+ </article>
+</div>
+ </section><section class="catsec" data-cat="gyoji">
+  <div class="shead"><span class="dotc" style="background:#dd8a1f"></span><h2>季節の行事係</h2><span class="cnt">4係</span></div>
+  <p class="slead">盆踊り・運動会など、その時期だけの行事を運営。</p>
+  <div class="cards">
+<article class="card" data-tags="active">
+  <div class="cap gyoji"><div class="avatar">🐻</div><div><div class="ttl">盆踊り係</div><div class="cat">季節の行事係</div></div></div>
+  <div class="body">
+   <div class="oneline">7月の盆踊り大会を運営。みんなで作る夏の大イベント。</div>
+   <div class="fit"><b>こんな人に</b>：当日2日間参加できる方。踊り隊・受付・音響・司会など担当別に分かれて動きます。体を動かすのが好きな人に。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>係会・踊り練習（6〜7月に年6回程度）</li><li>テント・提灯・音響の設営／撤収</li><li>踊り隊の募集・練習、当日運営</li><li>出店の調整・地域連携、各種申請</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>計40名 ・ 2〜4pt</div><div><span class="k">活動時期・繁忙</span>4〜7月（イベント前1〜2か月が繁忙）</div><div><span class="k">関わり方</span>本番前1〜2回＋前後2日は必須</div><div><span class="k">兼務 / 選出</span>委員・係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b">お祭り運営</span><span class="b">チーム制</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="active">
+  <div class="cap gyoji"><div class="avatar">🐗</div><div><div class="ttl">もちつき係</div><div class="cat">季節の行事係</div></div></div>
+  <div class="body">
+   <div class="oneline">1〜2月のもちつき大会を運営。かまど・調理など力仕事もある冬の行事。</div>
+   <div class="fit"><b>こんな人に</b>：当日2日間参加できる方。「経堂小おやじの会」と連携。体を動かすのが好きな人に。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>打合せ（2〜3回・ZOOM併用）</li><li>係名簿・備品・薪・もち米の手配</li><li>保健所・消防への申請</li><li>当日のもちつき・調理・受付・誘導</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>計40名 ・ 1〜3pt</div><div><span class="k">活動時期・繁忙</span>10〜3月（繁忙=11〜1月）</div><div><span class="k">関わり方</span>本番前1〜2回＋前後2日は必須</div><div><span class="k">兼務 / 選出</span>委員・係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b active">力仕事</span><span class="b">冬の行事</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="day easy active">
+  <div class="cap gyoji"><div class="avatar">🐰</div><div><div class="ttl">運動会係</div><div class="cat">季節の行事係</div></div></div>
+  <div class="body">
+   <div class="oneline">秋の運動会の当日サポート。関わりは主に当日のみで、いちばん軽め。</div>
+   <div class="fit"><b>こんな人に</b>：運動会当日に参加できる方。短時間で完結したい人や、はじめての人の“入口”におすすめ。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>仕事内容をメールで確認</li><li>正門・桜門の受付・誘導</li><li>観戦プラカードの掲示、授乳室案内</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>計24名 ・ 1〜3pt</div><div><span class="k">活動時期・繁忙</span>ほぼ運動会当日のみ</div><div><span class="k">関わり方</span>運動会当日（休日）</div><div><span class="k">兼務 / 選出</span>委員・係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b day">当日だけ</span><span class="b easy">はじめて向き</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="day easy active">
+  <div class="cap gyoji"><div class="avatar">🐿</div><div><div class="ttl">青少年経堂地区イベント係</div><div class="cat">季節の行事係</div></div></div>
+  <div class="body">
+   <div class="oneline">週末行事（飯ごう炊さん会・ドッジボール大会）で子どもの引率・運営補助。</div>
+   <div class="fit"><b>こんな人に</b>：どちらかの行事に必ず参加できる方。長副は置かず校外委員と連携。当日完結で関わりやすい。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>「飯ごう炊さん会」（10月）の引率・補助</li><li>「ドッジボール大会」（3月）の引率・補助</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>20名 ・ 1pt</div><div><span class="k">活動時期・繁忙</span>10月・3月の行事中心</div><div><span class="k">関わり方</span>イベント当日のみ</div><div><span class="k">兼務 / 選出</span>委員・係と兼務可 ・ 4月</div></div>
+   <div class="badges"><span class="b day">当日だけ</span><span class="b easy">はじめて向き</span></div>
+  </div>
+ </article>
+</div>
+ </section><section class="catsec" data-cat="senmon">
+  <div class="shead"><span class="dotc" style="background:#7c3aed"></span><h2>専門・運営係</h2><span class="cnt">3係</span></div>
+  <p class="slead">スキルや学年を活かす、運営まわりの係。</p>
+  <div class="cards">
+<article class="card" data-tags="home skill">
+  <div class="cap senmon"><div class="avatar">🐱</div><div><div class="ttl">PC係</div><div class="cat">専門・運営係</div></div></div>
+  <div class="body">
+   <div class="oneline">PTAサイトやKintoneなど、IT周りの運用。多くは在宅。</div>
+   <div class="fit"><b>こんな人に</b>：ブログ／CMS投稿の経験やHTML・CSSの知識があると望ましい（ITエンジニアである必要はありません）。在宅作業ができる方。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>PTAサイト（WordPress）の運用</li><li>ミマモルメ一斉メールの送信代行</li><li>Kintoneの運用</li><li>PTA機器の簡易サポート</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>計10名 ・ 2〜4pt</div><div><span class="k">活動時期・繁忙</span>通年（依頼ベース）</div><div><span class="k">関わり方</span>2〜3か月に1回程度（ZOOM可）</div><div><span class="k">兼務 / 選出</span>委員・係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b skill">IT・Web</span><span class="b home">ほぼ在宅</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="">
+  <div class="cap senmon"><div class="avatar">🦢</div><div><div class="ttl">卒業対策係</div><div class="cat">専門・運営係</div></div></div>
+  <div class="body">
+   <div class="oneline">6年担任と協力し、卒業記念品やボーリング大会など“卒業の思い出”を企画・運営。</div>
+   <div class="fit"><b>こんな人に</b>：6年生の保護者。記念品・アルバム・会計など、担当別に分かれて活動します。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>記念品の選定・発注・配付</li><li>卒業アルバムの手配</li><li>卒対費の予算・集金・会計報告</li><li>ボーリング大会などの企画・運営</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>各クラス3名 ・ 2pt〜</div><div><span class="k">活動時期・繁忙</span>4月〜翌4月（繁忙=年明け〜卒業式）</div><div><span class="k">関わり方</span>休日に月1程度＋オンライン</div><div><span class="k">兼務 / 選出</span>委員・係と兼務可 ・ 4月</div></div>
+   <div class="badges"><span class="b">6年生限定</span><span class="b">思い出づくり</span></div>
+  </div>
+ </article>
+<article class="card" data-tags="easy">
+  <div class="cap senmon"><div class="avatar">🦔</div><div><div class="ttl">単P研修会係</div><div class="cat">専門・運営係</div></div></div>
+  <div class="body">
+   <div class="oneline">9月頃の研修会（道徳授業地区公開講座と共催）を運営。学びの場を支える。</div>
+   <div class="fit"><b>こんな人に</b>：研修会当日（放課後）に出席できる方。来校は年3回程度と少なめ。</div>
+   <div class="work">主なお仕事</div>
+   <ul class="work-list"><li>単P研修会の企画・運営・報告書作成</li><li>ブロック研修会への参加</li><li>会計・報告の事務（副）</li><li>当日の会場準備</li></ul>
+   <div class="meta"><div><span class="k">人数 / ポイント</span>計20名 ・ 2〜4pt</div><div><span class="k">活動時期・繁忙</span>5月引継ぎ〜1月（繁忙=9月）</div><div><span class="k">関わり方</span>年3回程度（研修会当日＋書類）</div><div><span class="k">兼務 / 選出</span>委員・係と兼務可 ・ 3〜4月</div></div>
+   <div class="badges"><span class="b">研修運営</span><span class="b easy">来校少なめ</span></div>
+  </div>
+ </article>
+</div>
+ </section>
+<div id="nohit">この切り口に当てはまる係はありません。別の切り口をお試しください。</div>
+<footer>
+ <div class="box">
+  <h3>このページについて</h3>
+  <p>新しく委員・係を選ぶ保護者の方に向けて、それぞれの役割を「自分に合うか」で選べるよう紹介しています。詳しい規約・ポイント制度は、PTAのルールブックをご確認ください。</p>
+  <div class="legend"><span>💻 在宅でできる</span><span>📅 当日だけ・短期</span><span>⌨️ スキルが活きる</span><span>🏃 体を動かす</span><span>🔰 はじめて向き</span></div>
+ </div>
+</footer>
+</div>
+
+<script>
+const chips=[...document.querySelectorAll('.chip')];
+const cards=[...document.querySelectorAll('.card')];
+const secs=[...document.querySelectorAll('.catsec')];
+const nohit=document.getElementById('nohit');
+chips.forEach(c=>c.addEventListener('click',()=>{
+ chips.forEach(x=>x.classList.remove('on'));c.classList.add('on');
+ const f=c.dataset.f;let total=0;
+ cards.forEach(card=>{
+  const ok=f==='all'||(card.dataset.tags||'').split(' ').includes(f);
+  card.classList.toggle('hide',!ok); if(ok)total++;
+ });
+ secs.forEach(s=>{const any=[...s.querySelectorAll('.card')].some(c=>!c.classList.contains('hide'));s.style.display=any?'':'none';});
+ nohit.style.display=total?'none':'block';
+ window.scrollTo({top:0,behavior:'instant'});
+}));
+</script>
+</body></html>
