@@ -20,7 +20,7 @@ h2{font-size:clamp(26px,3.6vw,46px);font-weight:800}
 .divider.honbu .dkick{color:var(--honbu)}.divider.joc .dkick{color:var(--joc)}.divider.gaib .dkick{color:var(--gaib)}.divider.gyoji .dkick{color:var(--gyoji)}.divider.senmon .dkick{color:var(--senmon)}
 .divider p{color:var(--muted);font-size:clamp(15px,1.7vw,20px);max-width:40em;margin-top:.4em}
 .dthumbs{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}
-.dthumbs img{width:88px;height:88px;border-radius:50%;background:#fff;object-fit:cover;box-shadow:0 6px 16px rgba(0,0,0,.12);transition:.15s}
+.dthumbs img{width:88px;height:88px;border-radius:50%;background:#eef0f3;object-fit:contain;padding:5px;box-shadow:0 6px 16px rgba(0,0,0,.1);transition:.15s}
 .dthumbs a:hover img{transform:translateY(-4px);box-shadow:0 12px 22px rgba(0,0,0,.18)}
 .role{flex-direction:row;gap:5vw;align-items:center}
 .rleft{flex:0 0 46%;max-width:46%}
@@ -30,8 +30,8 @@ h2{font-size:clamp(26px,3.6vw,46px);font-weight:800}
 .role.gaib .hero{background:radial-gradient(circle at 50% 36%,#5b8def,#1f4fc4)}
 .role.gyoji .hero{background:radial-gradient(circle at 50% 36%,#edab4a,#c9781a)}
 .role.senmon .hero{background:radial-gradient(circle at 50% 36%,#9b6cea,#6a30c4)}
-.disc{width:min(74%,460px);aspect-ratio:1;border-radius:50%;background:#fff;overflow:hidden;box-shadow:0 24px 60px rgba(0,0,0,.22)}
-.disc img{width:100%;height:100%;object-fit:cover;display:block}
+.disc{width:min(86%,520px);aspect-ratio:1;display:grid;place-items:center;position:relative;z-index:1}
+.disc img{width:100%;height:100%;object-fit:contain;display:block;filter:drop-shadow(0 16px 20px rgba(0,0,0,.3))}
 .rright{flex:1}
 .rtop{display:flex;align-items:center;gap:12px;margin-bottom:6px}
 .catchip{font-weight:800;font-size:13px;color:#fff;padding:.3em 1em;border-radius:999px}
