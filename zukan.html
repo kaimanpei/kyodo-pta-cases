@@ -30,7 +30,8 @@ body{font-family:"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-ser
 .card.hide{display:none}
 .cap{display:flex;align-items:center;gap:14px;padding:16px 18px;color:#fff}
 .cap.honbu{background:var(--honbu)}.cap.joc{background:var(--joc)}.cap.gaib{background:var(--gaib)}.cap.gyoji{background:var(--gyoji)}.cap.senmon{background:var(--senmon)}
-.avatar{flex:0 0 auto;width:64px;height:64px;border-radius:14px;background:rgba(255,255,255,.22);display:grid;place-items:center;font-size:36px;line-height:1}
+.avatar{flex:0 0 auto;width:78px;height:78px;border-radius:14px;background:#fff;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,.12)}
+.avatar img{width:100%;height:100%;object-fit:cover;display:block}
 .cap .ttl{font-size:21px;font-weight:800;line-height:1.2}
 .cap .cat{font-size:12px;font-weight:700;opacity:.92;margin-top:2px}
 .body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:12px;flex:1}
@@ -81,7 +82,7 @@ footer{padding:36px 0 60px}
   <p class="slead">PTA全体の運営を担う中心メンバー。</p>
   <div class="cards">
 <article class="card" data-tags="">
-  <div class="cap honbu"><div class="avatar">🦁</div><div><div class="ttl">会長</div><div class="cat">本部役員</div></div></div>
+  <div class="cap honbu"><div class="avatar"><img src="chars/kaicho.png" alt="会長のイメージ" loading="lazy"></div><div><div class="ttl">会長</div><div class="cat">本部役員</div></div></div>
   <div class="body">
    <div class="oneline">PTAの代表。会を束ね、学校・地域との“顔”になる役割。</div>
    <div class="fit"><b>こんな人に</b>：人前で話す・意見をまとめるのが苦でない人。前年に委員や係を経験していると動きやすい（必須ではありません）。</div>
@@ -92,7 +93,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="">
-  <div class="cap honbu"><div class="avatar">🐘</div><div><div class="ttl">副会長</div><div class="cat">本部役員</div></div></div>
+  <div class="cap honbu"><div class="avatar"><img src="chars/fukukaicho.png" alt="副会長のイメージ" loading="lazy"></div><div><div class="ttl">副会長</div><div class="cat">本部役員</div></div></div>
   <div class="body">
    <div class="oneline">会長を補佐し、担当の委員・係の窓口・相談役になる“支え役”。</div>
    <div class="fit"><b>こんな人に</b>：調整・段取りが得意な人。委員・係の経験があると業務イメージが掴みやすい（必須ではありません）。</div>
@@ -103,7 +104,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="home skill">
-  <div class="cap honbu"><div class="avatar">🦫</div><div><div class="ttl">書記</div><div class="cat">本部役員</div></div></div>
+  <div class="cap honbu"><div class="avatar"><img src="chars/shoki.png" alt="書記のイメージ" loading="lazy"></div><div><div class="ttl">書記</div><div class="cat">本部役員</div></div></div>
   <div class="body">
    <div class="oneline">会議の記録と、全会員向け文書の作成。資料づくりの担い手。</div>
    <div class="fit"><b>こんな人に</b>：Word・Excelが使える方。自宅PCで作業できる方（貸出用PC1台あり）。</div>
@@ -114,7 +115,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="home skill">
-  <div class="cap honbu"><div class="avatar">🦉</div><div><div class="ttl">会計</div><div class="cat">本部役員</div></div></div>
+  <div class="cap honbu"><div class="avatar"><img src="chars/kaikei.png" alt="会計のイメージ" loading="lazy"></div><div><div class="ttl">会計</div><div class="cat">本部役員</div></div></div>
   <div class="body">
    <div class="oneline">会費の管理と決算報告。お金まわりの“要”。</div>
    <div class="fit"><b>こんな人に</b>：Excelが使える／自宅PCで作業できる方。銀行窓口の対応があるため、平日に動ける方。</div>
@@ -125,7 +126,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="easy">
-  <div class="cap honbu"><div class="avatar">🐢</div><div><div class="ttl">監査役</div><div class="cat">本部役員</div></div></div>
+  <div class="cap honbu"><div class="avatar"><img src="chars/kansa.png" alt="監査役のイメージ" loading="lazy"></div><div><div class="ttl">監査役</div><div class="cat">本部役員</div></div></div>
   <div class="body">
    <div class="oneline">会計・会務をチェックし、結果を会員に報告する“見守り役”。</div>
    <div class="fit"><b>こんな人に</b>：PTA会計・監査の経験者が優先。年2回の監査が中心で、運営委員会の参加は任意。</div>
@@ -141,7 +142,7 @@ footer{padding:36px 0 60px}
   <p class="slead">通年で活動する委員会。</p>
   <div class="cards">
 <article class="card" data-tags="">
-  <div class="cap joc"><div class="avatar">🐧</div><div><div class="ttl">学級代表委員</div><div class="cat">常置委員会</div></div></div>
+  <div class="cap joc"><div class="avatar"><img src="chars/gakkyu.png" alt="学級代表委員のイメージ" loading="lazy"></div><div><div class="ttl">学級代表委員</div><div class="cat">常置委員会</div></div></div>
   <div class="body">
    <div class="oneline">各クラスの代表として、保護者の声をPTAに届ける“つなぎ役”。PTA組織の根幹です。</div>
    <div class="fit"><b>こんな人に</b>：クラスのまとめ役。長はWord/Excelが使えると望ましい。わかば学級も原則選出。</div>
@@ -152,7 +153,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="">
-  <div class="cap joc"><div class="avatar">🐨</div><div><div class="ttl">文化厚生委員</div><div class="cat">常置委員会</div></div></div>
+  <div class="cap joc"><div class="avatar"><img src="chars/bunka.png" alt="文化厚生委員のイメージ" loading="lazy"></div><div><div class="ttl">文化厚生委員</div><div class="cat">常置委員会</div></div></div>
   <div class="body">
    <div class="oneline">家庭教育学級（給食試食会・講演会）を企画・運営。学びと交流の場づくり。</div>
    <div class="fit"><b>こんな人に</b>：担当イベント当日（平日日中・半日）に参加できる方。給食試食会班／講演会班に分かれて活動。</div>
@@ -163,7 +164,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="home skill">
-  <div class="cap joc"><div class="avatar">🦊</div><div><div class="ttl">広報委員</div><div class="cat">常置委員会</div></div></div>
+  <div class="cap joc"><div class="avatar"><img src="chars/koho.png" alt="広報委員のイメージ" loading="lazy"></div><div><div class="ttl">広報委員</div><div class="cat">常置委員会</div></div></div>
   <div class="body">
    <div class="oneline">PTA広報誌『きょうどう』の取材・編集・発行（年1回）。</div>
    <div class="fit"><b>こんな人に</b>：編集担当はCanva／Illustrator／PowerPoint等が使えると◎（撮影・校正だけの参加もOK）。在宅で編集できる方。</div>
@@ -174,7 +175,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="skill">
-  <div class="cap joc"><div class="avatar">🐝</div><div><div class="ttl">役員選考委員</div><div class="cat">常置委員会</div></div></div>
+  <div class="cap joc"><div class="avatar"><img src="chars/yakuin_senko.png" alt="役員選考委員のイメージ" loading="lazy"></div><div><div class="ttl">役員選考委員</div><div class="cat">常置委員会</div></div></div>
   <div class="body">
    <div class="oneline">次年度の本部役員や、委員・係の選出を段取りする“縁の下”。</div>
    <div class="fit"><b>こんな人に</b>：段取り・PC操作が活きる役割（長・副は自宅PCがあると望ましい）。Googleフォーム／スプレッドシートを使用。</div>
@@ -185,7 +186,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="home skill">
-  <div class="cap joc"><div class="avatar">🐹</div><div><div class="ttl">（役選）ポイント係</div><div class="cat">常置委員会</div></div></div>
+  <div class="cap joc"><div class="avatar"><img src="chars/point.png" alt="（役選）ポイント係のイメージ" loading="lazy"></div><div><div class="ttl">（役選）ポイント係</div><div class="cat">常置委員会</div></div></div>
   <div class="body">
    <div class="oneline">会員名簿とポイント履歴の管理。Excelでこつこつ進める、在宅中心の係。</div>
    <div class="fit"><b>こんな人に</b>：Excel（並べ替え・フィルター）が使える方／自宅PCで作業できる方。来校は引継ぎ会のみ。</div>
@@ -201,7 +202,7 @@ footer{padding:36px 0 60px}
   <p class="slead">地域・町会・警察と連携し、子どもの校外の安全を守る。</p>
   <div class="cards">
 <article class="card" data-tags="">
-  <div class="cap gaib"><div class="avatar">🐕</div><div><div class="ttl">校外役員</div><div class="cat">校外委員会</div></div></div>
+  <div class="cap gaib"><div class="avatar"><img src="chars/kogai_yakuin.png" alt="校外役員のイメージ" loading="lazy"></div><div><div class="ttl">校外役員</div><div class="cat">校外委員会</div></div></div>
   <div class="body">
    <div class="oneline">町会・警察と連携し、子どもの校外の安全を守る校外委員会のまとめ役。</div>
    <div class="fit"><b>こんな人に</b>：校外委員会の運営を担う役割。居住地区の制限はありません。係との兼務も可。</div>
@@ -212,7 +213,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="active">
-  <div class="cap gaib"><div class="avatar">🦝</div><div><div class="ttl">青少年経堂地区担当</div><div class="cat">校外委員会</div></div></div>
+  <div class="cap gaib"><div class="avatar"><img src="chars/seishonen_kyodo.png" alt="青少年経堂地区担当のイメージ" loading="lazy"></div><div><div class="ttl">青少年経堂地区担当</div><div class="cat">校外委員会</div></div></div>
   <div class="body">
    <div class="oneline">青少年経堂地区委員会と連携し、週末行事で子どもを引率・運営補助。</div>
    <div class="fit"><b>こんな人に</b>：地区行事（飯ごう炊さん会・ドッジボール大会等）の運営に関われる方。児童・未就学児の同伴は原則不可。</div>
@@ -223,7 +224,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="active">
-  <div class="cap gaib"><div class="avatar">🦡</div><div><div class="ttl">青少年松沢地区担当</div><div class="cat">校外委員会</div></div></div>
+  <div class="cap gaib"><div class="avatar"><img src="chars/seishonen_matsuzawa.png" alt="青少年松沢地区担当のイメージ" loading="lazy"></div><div><div class="ttl">青少年松沢地区担当</div><div class="cat">校外委員会</div></div></div>
   <div class="body">
    <div class="oneline">青少年松沢地区委員会と連携し、地域行事の準備・運営を担う。</div>
    <div class="fit"><b>こんな人に</b>：地区委員会（ほぼ毎月）に出席できる方。子どものつどい・凧あげ大会などの運営。同伴は原則不可。</div>
@@ -234,7 +235,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="">
-  <div class="cap gaib"><div class="avatar">🐥</div><div><div class="ttl">成城交通安全保護者の会</div><div class="cat">校外委員会</div></div></div>
+  <div class="cap gaib"><div class="avatar"><img src="chars/seijo_kotsu.png" alt="成城交通安全保護者の会のイメージ" loading="lazy"></div><div><div class="ttl">成城交通安全保護者の会</div><div class="cat">校外委員会</div></div></div>
   <div class="body">
    <div class="oneline">交通安全の啓発活動。ポスター募集や自転車教室の補助など。</div>
    <div class="fit"><b>こんな人に</b>：交通安全の会（年6回程度）に参加できる方。同伴は原則不可。</div>
@@ -245,7 +246,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="">
-  <div class="cap gaib"><div class="avatar">🐺</div><div><div class="ttl">警察担当</div><div class="cat">校外委員会</div></div></div>
+  <div class="cap gaib"><div class="avatar"><img src="chars/keisatsu.png" alt="警察担当のイメージ" loading="lazy"></div><div><div class="ttl">警察担当</div><div class="cat">校外委員会</div></div></div>
   <div class="body">
    <div class="oneline">防犯グッズ・パトロール備品の管理。安全の“裏方”。</div>
    <div class="fit"><b>こんな人に</b>：校外地区班から選出。校外委員会（年4回ZOOM）に参加できる方。</div>
@@ -256,7 +257,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="">
-  <div class="cap gaib"><div class="avatar">🦅</div><div><div class="ttl">ブロック長</div><div class="cat">校外委員会</div></div></div>
+  <div class="cap gaib"><div class="avatar"><img src="chars/block_cho.png" alt="ブロック長のイメージ" loading="lazy"></div><div><div class="ttl">ブロック長</div><div class="cat">校外委員会</div></div></div>
   <div class="body">
    <div class="oneline">地区班の活動を束ね、町会との連絡窓口になるブロックのまとめ役。</div>
    <div class="fit"><b>こんな人に</b>：校外地区班から選出。町会との連携・連絡を担える方。</div>
@@ -267,7 +268,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="active easy">
-  <div class="cap gaib"><div class="avatar">🐶</div><div><div class="ttl">校外委員</div><div class="cat">校外委員会</div></div></div>
+  <div class="cap gaib"><div class="avatar"><img src="chars/kogai_iin.png" alt="校外委員のイメージ" loading="lazy"></div><div><div class="ttl">校外委員</div><div class="cat">校外委員会</div></div></div>
   <div class="body">
    <div class="oneline">旗持ちパトロールの当番表づくりなど、身近な見守り活動。負担は軽めです。</div>
    <div class="fit"><b>こんな人に</b>：校外地区班から各班2名。来校は引継ぎ1回程度で、地域での見守りが中心。はじめての方にも。</div>
@@ -283,7 +284,7 @@ footer{padding:36px 0 60px}
   <p class="slead">盆踊り・運動会など、その時期だけの行事を運営。</p>
   <div class="cards">
 <article class="card" data-tags="active">
-  <div class="cap gyoji"><div class="avatar">🐻</div><div><div class="ttl">盆踊り係</div><div class="cat">季節の行事係</div></div></div>
+  <div class="cap gyoji"><div class="avatar"><img src="chars/bonodori.png" alt="盆踊り係のイメージ" loading="lazy"></div><div><div class="ttl">盆踊り係</div><div class="cat">季節の行事係</div></div></div>
   <div class="body">
    <div class="oneline">7月の盆踊り大会を運営。みんなで作る夏の大イベント。</div>
    <div class="fit"><b>こんな人に</b>：当日2日間参加できる方。踊り隊・受付・音響・司会など担当別に分かれて動きます。体を動かすのが好きな人に。</div>
@@ -294,7 +295,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="active">
-  <div class="cap gyoji"><div class="avatar">🐗</div><div><div class="ttl">もちつき係</div><div class="cat">季節の行事係</div></div></div>
+  <div class="cap gyoji"><div class="avatar"><img src="chars/mochitsuki.png" alt="もちつき係のイメージ" loading="lazy"></div><div><div class="ttl">もちつき係</div><div class="cat">季節の行事係</div></div></div>
   <div class="body">
    <div class="oneline">1〜2月のもちつき大会を運営。かまど・調理など力仕事もある冬の行事。</div>
    <div class="fit"><b>こんな人に</b>：当日2日間参加できる方。「経堂小おやじの会」と連携。体を動かすのが好きな人に。</div>
@@ -305,7 +306,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="day easy active">
-  <div class="cap gyoji"><div class="avatar">🐰</div><div><div class="ttl">運動会係</div><div class="cat">季節の行事係</div></div></div>
+  <div class="cap gyoji"><div class="avatar"><img src="chars/undokai.png" alt="運動会係のイメージ" loading="lazy"></div><div><div class="ttl">運動会係</div><div class="cat">季節の行事係</div></div></div>
   <div class="body">
    <div class="oneline">秋の運動会の当日サポート。関わりは主に当日のみで、いちばん軽め。</div>
    <div class="fit"><b>こんな人に</b>：運動会当日に参加できる方。短時間で完結したい人や、はじめての人の“入口”におすすめ。</div>
@@ -316,7 +317,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="day easy active">
-  <div class="cap gyoji"><div class="avatar">🐿</div><div><div class="ttl">青少年経堂地区イベント係</div><div class="cat">季節の行事係</div></div></div>
+  <div class="cap gyoji"><div class="avatar"><img src="chars/kyodo_event.png" alt="青少年経堂地区イベント係のイメージ" loading="lazy"></div><div><div class="ttl">青少年経堂地区イベント係</div><div class="cat">季節の行事係</div></div></div>
   <div class="body">
    <div class="oneline">週末行事（飯ごう炊さん会・ドッジボール大会）で子どもの引率・運営補助。</div>
    <div class="fit"><b>こんな人に</b>：どちらかの行事に必ず参加できる方。長副は置かず校外委員と連携。当日完結で関わりやすい。</div>
@@ -332,7 +333,7 @@ footer{padding:36px 0 60px}
   <p class="slead">スキルや学年を活かす、運営まわりの係。</p>
   <div class="cards">
 <article class="card" data-tags="home skill">
-  <div class="cap senmon"><div class="avatar">🐱</div><div><div class="ttl">PC係</div><div class="cat">専門・運営係</div></div></div>
+  <div class="cap senmon"><div class="avatar"><img src="chars/pc.png" alt="PC係のイメージ" loading="lazy"></div><div><div class="ttl">PC係</div><div class="cat">専門・運営係</div></div></div>
   <div class="body">
    <div class="oneline">PTAサイトやKintoneなど、IT周りの運用。多くは在宅。</div>
    <div class="fit"><b>こんな人に</b>：ブログ／CMS投稿の経験やHTML・CSSの知識があると望ましい（ITエンジニアである必要はありません）。在宅作業ができる方。</div>
@@ -343,7 +344,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="">
-  <div class="cap senmon"><div class="avatar">🦢</div><div><div class="ttl">卒業対策係</div><div class="cat">専門・運営係</div></div></div>
+  <div class="cap senmon"><div class="avatar"><img src="chars/sotsutai.png" alt="卒業対策係のイメージ" loading="lazy"></div><div><div class="ttl">卒業対策係</div><div class="cat">専門・運営係</div></div></div>
   <div class="body">
    <div class="oneline">6年担任と協力し、卒業記念品やボーリング大会など“卒業の思い出”を企画・運営。</div>
    <div class="fit"><b>こんな人に</b>：6年生の保護者。記念品・アルバム・会計など、担当別に分かれて活動します。</div>
@@ -354,7 +355,7 @@ footer{padding:36px 0 60px}
   </div>
  </article>
 <article class="card" data-tags="easy">
-  <div class="cap senmon"><div class="avatar">🦔</div><div><div class="ttl">単P研修会係</div><div class="cat">専門・運営係</div></div></div>
+  <div class="cap senmon"><div class="avatar"><img src="chars/tanp_kenshu.png" alt="単P研修会係のイメージ" loading="lazy"></div><div><div class="ttl">単P研修会係</div><div class="cat">専門・運営係</div></div></div>
   <div class="body">
    <div class="oneline">9月頃の研修会（道徳授業地区公開講座と共催）を運営。学びの場を支える。</div>
    <div class="fit"><b>こんな人に</b>：研修会当日（放課後）に出席できる方。来校は年3回程度と少なめ。</div>
